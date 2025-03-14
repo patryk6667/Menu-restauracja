@@ -42,12 +42,8 @@
             justify-content: center;
             padding: 40px;
             flex-wrap: wrap;
-            transition: transform 0.3s ease;
+            
         }
-         .specials-container:hover {
-            transform: scale(1.05);
-            box-shadow:0 4px 20px rgba(0, 0, 0, 0.2)
- }
         .special-item {
             background-color: #222;
             border-radius: 10px;
@@ -57,10 +53,15 @@
             overflow: hidden;
             text-align: center;
             padding: 20px;
+            transition: transform 0.3s ease;
            
         }
 
-     
+      
+         .special-item:hover {
+            transform: scale(1.05);
+            box-shadow:0 4px 20px rgba(0, 0, 0, 0.2)
+ }
      .special-item h4 {
             font-size: 20px;
             color: #D4AF37;
