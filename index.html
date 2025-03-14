@@ -6,11 +6,26 @@
     <title>Fancy Restaurant Menu</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+           font-family: 'Arial', sans-serif;
             background-color: #111;
             margin: 0;
             padding: 0;
             color: #f4f4f4;
+            background-image: url('https://via.placeholder.com/1920x1080.png?text=Fancy+Food+Background'); /* fota żarcia do podmianki */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            position: relative;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); 
+            z-index: -1; 
         }
         header {
             background-color: #000;
